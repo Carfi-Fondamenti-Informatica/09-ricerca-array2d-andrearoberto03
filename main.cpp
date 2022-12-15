@@ -15,6 +15,7 @@ int main() {
     for(int i=0; i<10; i++){
         cin >> array1[i];
     }
+    cin>>array2;
     if(posizione(array1, array2, numero)){
         cout << numero;
     }else{
