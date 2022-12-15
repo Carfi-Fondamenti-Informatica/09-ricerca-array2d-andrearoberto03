@@ -8,14 +8,13 @@ int main() {
     int numero=0;
     for(int i=0; i<10; i++){
         for(int k=0; k<20; k++){
-            array1[i][k]=" ";
-            array2[k]=" ";
+            array1[i][k]=' ';
+            array2[k]=' ';
         }
     }
     for(int i=0; i<10; i++){
         cin >> array1[i];
     }
-    int numero=0;
     if(posizione(array1, array2, numero)){
         cout << numero;
     }else{
